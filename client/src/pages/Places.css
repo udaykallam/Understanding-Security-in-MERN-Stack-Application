@@ -1,0 +1,68 @@
+.places-container {
+    padding: 20px;
+    background-color:aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.places-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.places-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.place-item {
+    background-color:#2b2b2b;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.place-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.place-description {
+    margin-bottom: 10px;
+}
+
+.place-location {
+    margin-bottom: 10px;
+}
+
+.place-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.place-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.place-video {
+    margin-bottom: 10px;
+}
+
+.place-opening-hours {
+    margin-bottom: 5px;
+}
+
+.place-entry-fees {
+    margin-bottom: 5px;
+}
+
+.place-contact-info {
+    margin-bottom: 10px;
+}

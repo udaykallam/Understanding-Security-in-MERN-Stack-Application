@@ -1,0 +1,33 @@
+.idle-modal {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .idle-modal-header {
+    background-color: #1a1a1a;
+    color: #fff;
+    border-bottom: none;
+  }
+  
+  .idle-modal-body {
+    color:red; 
+    font-size: 16px;
+  }
+  
+  .idle-modal-footer {
+    background-color: #1a1a1a;
+    border-top: none; 
+  }
+  
+  .idle-modal-footer button {
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    margin-right: 10px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+  }
+  
+  .idle-modal-footer button:hover {
+    background-color: #4caf50;
+  }
+  

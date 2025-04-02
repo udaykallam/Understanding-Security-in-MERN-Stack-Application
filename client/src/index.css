@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  color-scheme: light dark;
+}
+
+
+body{
+  margin:0;
+  /* min-width: 32rem; */
+  min-height: 100vh;
+} 
+
+:root{
+  --bg-color:lightblue;
+  --bg-color:grey;
+  --dark-color:#242424;
+  --helper-color:#99b9ff;
+  --btn-color:#646cff;
+}
+
+
+h1{
+  font-size:5.4rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+li,
+label,
+input,
+textarea{
+  font-size: 1.8rem;
+  line-height: 1.56;
+  letter-spacing: 0.1rem;
+  word-spacing: 0,06rem;
+}
+
+button{
+  text-transform: capitalize;
+  padding: 1rem 2.2rem;
+  font-size:1.7rem;
+  font-weight: 500;
+  background-color: var(--btn-color);
+  border-radius: 0.8rem;
+  -webkit-border-radius:0.8rem;
+  -moz-border-radius:0.8rem;
+  -ms-border-radius:0.8rem;
+  -o-border-radius:0.8rem;
+  border: 0.1rem solid transparent;
+  cursor:pointer;
+  letter-spacing:0.1rem ;
+  transition: border-color 0.3s;
+  -webkit-transition: border-color 0.3s;
+  -moz-transition: border-color 0.3s;
+  -ms-transition:border-color 0.3s;
+  -o-transition: border-color 0.3s;
+}
+
+/* Error.css */
+
+.btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.btns a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid #242424;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #646cff;
+  transition: background-color 0.8s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn{
+  background-color: #646cff;
+}
+.btns a:hover {
+  background-color:lightblue;
+  color: #fff;
+}
+
+
+
+.secondary-btn{
+  background-color: #646cff;
+  box-shadow: inset 0 0 0 0.2rem var(--btn-color);
+  margin-left:3.2rem;
+  
+}
+
+button:hover {
+  box-shadow: inset 0 0 0 0.2rem var(--bg-color);
+}
+
+
+/* react toastify styling */
+
+.toastBody {
+  font-family: "Atlas Grotesk Web", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+
+/* Admin Users Page */
+.admin-user-section {
+  padding: 2rem 0;
+}
+
+.admin-user-section .container {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.admin-user-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color:#fff; 
+}
+
+.admin-users table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.admin-users th,
+.admin-users td {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-users th {
+  background-color: #333;
+  color: #fff;
+  text-align: left; 
+}
+
+.admin-users tbody tr:hover {
+  background-color: #2b2b2b; 
+}
+
+.admin-users td button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #007bff; /* Blue button color */
+  color: #fff;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-users td button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Terms and Conditions */
+
+.terms-container {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.terms-content {
+  line-height: 1.6;
+}
+
+.terms-content h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.terms-content h2 {
+  font-size: 20px;  
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.terms-content p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.terms-content ul {
+  margin-bottom: 15px;
+}
+
+.terms-content li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.terms-content a {
+  color: #007bff;
+}
+
+.terms-content a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .terms-container {
+    padding: 15px;
+  }
+
+  .terms-content h1 {
+    font-size: 20px;
+  }
+
+  .terms-content h2 {
+    font-size: 18px;
+  }
+
+  .terms-content p,
+  .terms-content li {
+    font-size: 14px;
+  }
+}
