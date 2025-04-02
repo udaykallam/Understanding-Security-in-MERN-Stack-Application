@@ -1,2 +1,2 @@
-# ExploreIndia
-MERN Stack web application
+# Basic Project To Understand MERN Stack Application Structure And Basic Security In The Apps
+
